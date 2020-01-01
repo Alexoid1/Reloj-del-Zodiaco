@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    width:100%;
+    background: url(imagenes/fondos-pantalla-hd_3.jpg) #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.time{     
+    margin:1em;   
+    
+}
+.time p{
+    display: inline-block;
+    line-height: 2em;
+
+}
+.fecha{
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+    overflow: hidden;
+}
+.fecha p{
+    margin:5px;
+}
+.clock{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+    
+}
+.cajaS{
+    display: inline-block;
+}
+
+.cajaS .seconds{
+    
+    display: block;
+    
+}
+.reloj{
+    margin: auto;
+    width:100px;
+    height: 100px;
+    border:10px solid  rgba(0,0,0,.5);
+    background-color: none;
+    border-radius:100%;
+    margin-top: 5px;
+    position:relative;
+    transform: rotate(90deg);
+    transition:all 0.05;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    
+   
+    
+
+    
+    
+}
+.aguja{
+    
+    background:white;
+    top:50%;
+    position: absolute;
+    transform-origin: 100%;
+    
+    
+}
+.hora{
+    width: 50px;
+    height: 3px;
+}
+.minuto{
+    width:50px;
+    height: 2px;
+
+}
+.segundo{
+    width:50px;
+    height: 1px;
+
+}
+.zodiaco{
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,.5);
+    padding: 10px 10px 19px 10px;
+    
+    text-align: center;
+    font-size: 12px;
+}
+footer{
+    text-align: center;
+}
+.zodiaco, .time{
+    display: inline-block;
+    
+}
+.img{
+    width:7rem;
+    height: 7rem;
+    background:none;
+    
+    margin:auto;
+}
+.signo{
+    font-size: 1rem;
+}
+.zodiaco p{
+    font-size: 1rem;
+    padding: 5px;
+}
+.submit{
+    width: 110px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,.5);
+    padding: 5px 5px 5px 5px;
+    margin: 0 auto 10px;
+    text-align: center;
+    font-size: 12px;
+    cursor:pointer;
+    text-align: center;
+    transition: all 0.5s;
+    
+}
+.submit:hover{
+    background: white;
+    color: black;
+}
+.boton{
+    background-color: rgba(0,0,0,.5);
+    cursor:pointer;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color:white;
+    margin:0px 0px 0px 5px;
+    transition: ease-in-out 0.5s;
+    display: block;
+    margin:auto;
+
+}
+.boton:hover{
+    background: white;
+    color: black;
+
+
+}
+form{
+    transition: ease-in-out 0.7s;
+}
+.remplazar{
+    transform: translateY(100%);
+}
+.formu{
+    margin:5px;
+}
