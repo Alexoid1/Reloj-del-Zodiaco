@@ -98,7 +98,7 @@ function zodiaco(fech,mes) {
   }
 }
 function sideral(fech,mes) {
-  if ((mes === 0 && fech >= 9) || (mes === 1 && fech <= 15)) {
+  if ((mes === 0 && fech >= 21) || (mes === 1 && fech <= 15)) {
     signo2.textContent = "Capricornio";
     img2.style.backgroundImage =
       "url(imagenes/shutterstock_1094544740-e1560007878303.jpg)";
@@ -147,58 +147,58 @@ function sideral(fech,mes) {
     signo2.textContent = "Ofiuco";
     img2.style.backgroundImage = "url(imagenes/ophiuchus1.jpg)";
     img2.style.backgroundSize = "cover";
-  } else if ((mes === 11 && fech >= 18) || (mes === 0 && fech <= 8)) {
+  } else if ((mes === 11 && fech >= 18) || (mes === 0 && fech <= 20)) {
     signo2.textContent = "Sagitario";
     img2.style.backgroundImage = "url(imagenes/sagitario.jpg)";
     img2.style.backgroundSize = "cover";
   }
 }
 function añoChino(año) {
-  if (año === 1971 ||año === 1983 ||año === 1995 ||año === 2007 || año === 2019 || año === 2031) {
+  if (año === 1935 ||año === 1947 ||año === 1959 ||año === 1971 ||año === 1983 ||año === 1995 ||año === 2007 || año === 2019 || año === 2031|| año === 2043) {
     signo3.textContent = "Cerdo";
     img3.style.backgroundImage = "url(imagenes/cerdo.png)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1972 ||año === 1984 ||año === 1996 ||año === 2008 || año === 2020 || año === 2032) {
+  } else if (año === 1936 ||año === 1948 ||año === 1960 ||año === 1972 ||año === 1984 ||año === 1996 ||año === 2008 || año === 2020 || año === 2032|| año === 2044) {
     signo3.textContent = "Rata";
     img3.style.backgroundImage = "url(imagenes/rata.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1973 ||año === 1985 ||año === 1997 ||año === 2009 || año === 2021 || año === 2033) {
+  } else if (año === 1937 ||año === 1949 ||año === 1961 ||año === 1973 ||año === 1985 ||año === 1997 ||año === 2009 || año === 2021 || año === 2033|| año === 2045) {
     signo3.textContent = "Buey";
     img3.style.backgroundImage = "url(imagenes/buey.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1974 ||año === 1986 ||año === 1998 ||año === 2010 || año === 2022 || año === 2034) {
+  } else if (año === 1938 ||año === 1950 ||año === 1962 ||año === 1974 ||año === 1986 ||año === 1998 ||año === 2010 || año === 2022 || año === 2034|| año === 2046) {
     signo3.textContent = "Tigre";
     img3.style.backgroundImage = "url(imagenes/tigre.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1975 ||año === 1987 ||año === 1999 ||año === 2011 || año === 2023 || año === 2035) {
+  } else if (año === 1939 ||año === 1951 ||año === 1963 ||año === 1975 ||año === 1987 ||año === 1999 ||año === 2011 || año === 2023 || año === 2035|| año === 2047) {
     signo3.textContent = "Conejo";
     img3.style.backgroundImage = "url(imagenes/conejo.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1976 ||año === 1988 ||año === 2000 ||año === 2012 || año === 2024 || año === 2036) {
+  } else if (año === 1940 ||año === 1952 ||año === 1964 ||año === 1976 ||año === 1988 ||año === 2000 ||año === 2012 || año === 2024 || año === 2036|| año === 2048) {
     signo3.textContent = "Dragon";
     img3.style.backgroundImage = "url(imagenes/dragon.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1977 ||año === 1989 ||año === 2001 ||año === 2013 || año === 2025 || año === 2037) {
+  } else if (año === 1941 ||año === 1953 ||año === 1965 ||año === 1977 ||año === 1989 ||año === 2001 ||año === 2013 || año === 2025 || año === 2037|| año === 2049) {
     signo3.textContent = "Serpiente";
     img3.style.backgroundImage = "url(imagenes/serpiente.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1978 ||año === 1990 ||año === 2002 ||año === 2014 || año === 2026 || año === 2038) {
+  } else if (año === 1942 ||año === 1954 ||año === 1966 ||año === 1978 ||año === 1990 ||año === 2002 ||año === 2014 || año === 2026 || año === 2038|| año === 2050) {
     signo3.textContent = "Caballo";
     img3.style.backgroundImage = "url(imagenes/caballo.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1979 ||año === 1991 ||año === 2003 ||año === 2015 || año === 2027 || año === 2039) {
+  } else if (año === 1943 ||año === 1955 ||ño === 1967 ||año === 1979 ||año === 1991 ||año === 2003 ||año === 2015 || año === 2027 || año === 2039|| año === 2051) {
     signo3.textContent = "Cabra";
     img3.style.backgroundImage = "url(imagenes/cabra.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1980 ||año === 1992 ||año === 2004 ||año === 2016 || año === 2028 || año === 2040) {
+  } else if (año === 1944 ||año === 1956 ||año === 1968 ||año === 1980 ||año === 1992 ||año === 2004 ||año === 2016 || año === 2028 || año === 2040|| año === 2052) {
     signo3.textContent = "Mono";
     img3.style.backgroundImage = "url(imagenes/mono.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1981 ||año === 1993 ||año === 2005 ||año === 2017 || año === 2029 || año === 2041) {
+  } else if (año === 1945 ||año === 1957 ||año === 1969 ||año === 1981 ||año === 1993 ||año === 2005 ||año === 2017 || año === 2029 || año === 2041|| año === 2053) {
     signo3.textContent = "Gallo";
     img3.style.backgroundImage = "url(imagenes/gallo.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1982 ||año === 1994 ||año === 2006 ||año === 2018 || año === 2030 || año === 2042) {
+  } else if (año === 1946 ||año === 1958 ||año === 1970 ||año === 1982 ||año === 1994 ||año === 2006 ||año === 2018 || año === 2030 || año === 2042|| año === 2054) {
     signo3.textContent = "Perro";
     img3.style.backgroundImage = "url(imagenes/perro.jpg)";
     img3.style.backgroundSize = "cover";
@@ -214,7 +214,7 @@ submit.addEventListener("click", cambiar);
     dat.innerHTML ='';
     let form=document.createElement('form');//se crea el formulario y todos sus elementos
     form.setAttribute('name','formulario');
-    form.innerHTML='<input  class="formu" name="idia" id="idia" type="number" min="1" max="31"placeholder="Dia" required><input  class="formu" min="1" max="12" name="imes" id="imes"type="number" placeholder="Mes" required><input  class="formu" type="number" name="iaño" min="1970" max="2050" id="iaño" placeholder="Año" required>'
+    form.innerHTML='<input  class="formu" name="idia" id="idia" type="number" min="1" max="31"placeholder="Dia" required><input  class="formu" min="1" max="12" name="imes" id="imes"type="number" placeholder="Mes" required><input  class="formu" type="number" name="iaño" min="1940" max="2050" id="iaño" placeholder="Año" required>'
     dat.appendChild(form);
     let boton=document.createElement('button');
     boton.textContent='Ingresar'
@@ -236,8 +236,7 @@ submit.addEventListener("click", cambiar);
         xmes=xmes-1; //trasformar xnes a tipo numero y restarle uno para asignar en array de meses
         let xaño=iaño.value;
         xaño=parseInt(xaño);//trasformar xaño a tipo numero
-        console.log(xmes);
-        console.log(xdia);
+       
         
 
         dat.innerHTML=`<p>Dia</p><p>${xdia}</p><p>de</p><p>${meses[xmes]}</p><p>del</p><p>${iaño.value}</p>`;
