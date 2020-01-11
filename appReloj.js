@@ -186,7 +186,7 @@ function añoChino(año) {
     signo3.textContent = "Caballo";
     img3.style.backgroundImage = "url(imagenes/caballo.jpg)";
     img3.style.backgroundSize = "cover";
-  } else if (año === 1943 ||año === 1955 ||ño === 1967 ||año === 1979 ||año === 1991 ||año === 2003 ||año === 2015 || año === 2027 || año === 2039|| año === 2051) {
+  } else if (año === 1943 ||año === 1955 ||año === 1967 ||año === 1979 ||año === 1991 ||año === 2003 ||año === 2015 || año === 2027 || año === 2039|| año === 2051) {
     signo3.textContent = "Cabra";
     img3.style.backgroundImage = "url(imagenes/cabra.jpg)";
     img3.style.backgroundSize = "cover";
