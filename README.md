@@ -1,9 +1,8 @@
-# Reloh del Zodiaco
-Reloj que muestra la hora la constelacion sideral, tropical y el año chino de la fecha señalada.
+# Reloj del Zodiaco
+Clock that shows the time, the sidereal, tropical constellation and the Chinese year of the indicated date.
 
-![screenshot](./images/login.png)
-![screenshot](./images/motos.png)
-![screenshot](./images/book.png)
+![screenshot](./capture.png)
+
 
 
 ## Built With
